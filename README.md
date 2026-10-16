@@ -1,6 +1,6 @@
 # Potato Leaf Disease Classification using CNN
 
-A convolutional neural network (TensorFlow/Keras) that classifies potato leaf images into three classes: **Early Blight**, **Late Blight**, and **Healthy**. It reaches **99.59% accuracy** on the held-out test set.
+This project builds a convolutional neural network to detect common potato leaf diseases from images. It classifies leaves as Early Blight, Late Blight, or Healthy using 2,134 images resized to 256×256. The pipeline covers data loading with image_dataset_from_directory, an 80/10/10 train/validation/test split, caching and prefetching, rescaling, and flip and rotation augmentation. The model has six convolution and pooling blocks followed by a dense classifier, trained with Adam for 50 epochs. It reaches about 98.3% training, 99.0% validation, and 99.6% test accuracy. The notebook runs in Google Colab and includes training curves and sample predictions with confidence scores.
 
 ## Overview
 
