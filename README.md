@@ -55,10 +55,10 @@ Add a link to your dataset source here.
 
 ## Possible improvements
 
-- Compare against transfer learning (e.g. EfficientNetB0)
-- Add a confusion matrix and per-class precision/recall
-- Split by image instead of by batch, and test on a larger held-out set
-- Export the model and add a simple inference script or web demo
+- Comparing against transfer learning (e.g. EfficientNetB0)
+- Adding a confusion matrix and per-class precision/recall
+- Spliting by image instead of by batch, and test on a larger held-out set
+- Exporting the model and add a simple inference script or web demo
 
 ## License
 
