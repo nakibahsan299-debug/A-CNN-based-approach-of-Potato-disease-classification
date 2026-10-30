@@ -29,18 +29,6 @@ This project builds a convolutional neural network to detect common potato leaf 
 
 The notebook also plots training and validation curves and shows sample predictions with confidence scores.
 
-## Getting started
-
-1. Open `Potato_disease_classification_using_CNN.ipynb` in Google Colab.
-2. Put the dataset in Google Drive with one folder per class:
-   ```
-   PlantDataset/
-   ├── Potato___Early_blight/
-   ├── Potato___Late_blight/
-   └── Potato___healthy/
-   ```
-3. Update the dataset path in the notebook (`/content/drive/MyDrive/PlantDataset`) if yours differs.
-4. Run all cells.
 
 ## Requirements
 
@@ -49,9 +37,6 @@ The notebook also plots training and validation curves and shows sample predicti
 - Matplotlib
 - NumPy
 
-## Dataset
-
-Add a link to your dataset source here.
 
 ## Possible improvements
 
